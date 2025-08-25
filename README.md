@@ -1,29 +1,10 @@
 # 🎄 Animated SVG Christmas Tree
 
 Spreading Christmas cheer all throughout the year!  
-A lightweight, **pure HTML + CSS** project that draws a Christmas tree in **SVG** and animates the lights with **CSS keyframes**—no JavaScript required.
 
----
+A lightweight, **pure HTML + CSS** project that draws a Christmas tree in **SVG** and animates the lights with **CSS keyframes**-no JavaScript required.
 
-## About
-Prototype showcasing an **animated SVG** Christmas tree with **CSS keyframe** twinkle lights and a **responsive** layout. Built to demonstrate clean SVG structure, accessible markup, and performant, dependency-free animation.
-
-> _Tags:_ **SVG, CSS, Animation, Responsive**
-
----
-
-## Table of Contents
-- [About](#about)
-- [What This Is](#what-this-is)
-- [What I Built / Highlights](#what-i-built--highlights)
-- [Files](#files)
-- [How It Works](#how-it-works)
-- [Customize](#customize)
-- [Accessibility](#accessibility)
-- [Run Locally](#run-locally)
-- [Preview](#preview)
-- [Links](#links)
-- [License](#license)
+🔗 Links
 
 ---
 
@@ -49,16 +30,6 @@ Prototype showcasing an **animated SVG** Christmas tree with **CSS keyframe** tw
   }
   ```
 - Kept things **semantic & simple**: a single HTML file (`index.html`) with a separate stylesheet (`style.css`).
-
----
-
-## 📂 Files
-```
-.
-├─ index.html      # SVG markup and structure
-├─ style.css       # Colors, keyframes, animation timing, responsiveness
-└─ (optional) /assets/preview.png
-```
 
 ---
 
@@ -99,7 +70,7 @@ Prototype showcasing an **animated SVG** Christmas tree with **CSS keyframe** tw
 ---
 
 ## ♿ Accessibility
-Add a title/description and expose as an image role:
+Add a title/description and label as an image role:
 ```html
 <svg id="tree" role="img" aria-labelledby="treeTitle treeDesc" ...>
   <title id="treeTitle">Animated Christmas tree</title>
@@ -119,23 +90,3 @@ Respect reduced motion preferences:
 ## ▶️ Run Locally
 1. Clone or download this repository.
 2. Open `index.html` in your browser.
-3. (Optional) Serve with GitHub Pages to publish a **Live Demo**.
-
----
-
-## 📸 Preview
-Add a screenshot for the README:
-```markdown
-![Animated SVG Christmas Tree](assets/preview.png)
-```
-
----
-
-## 🔗 Links
-- **Repository:** _add your GitHub URL here_
-- **Live Demo:** _add your GitHub Pages (or other) URL here_
-
----
-
-## 🧾 License
-MIT — see `LICENSE` for details.
