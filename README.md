@@ -4,7 +4,7 @@ Spreading Christmas cheer all throughout the year!
 
 A lightweight, **pure HTML + CSS** project that draws a Christmas tree in **SVG** and animates the lights with **CSS keyframes**-no JavaScript required.
 
-🔗 Links
+🔗 [Live Demo](https://jillmplatts.com/christmas_tree/)
 
 ---
 
