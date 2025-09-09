@@ -1,0 +1,122 @@
+/* =========================
+   Reset & Base Layout
+   ========================= */
+*, html {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 2em;
+}
+
+#tree {
+    max-width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* =========================
+   Bulb Colors & Animations
+   ========================= */
+.red {
+    fill: #aa1231;
+    -webkit-animation: 0.6s red-flash ease-in-out infinite;
+    animation: 0.6s red-flash ease-in-out infinite;
+}
+
+.gold-lt {
+    fill: #c1881c;
+    -webkit-animation: 0.6s gold-lt-flash ease-in-out infinite;
+    animation: 0.6s gold-lt-flash ease-in-out infinite;
+}
+
+.blue-lt {
+    fill: #1f3e64;
+    -webkit-animation: 0.6s blue-lt-flash ease-in-out infinite;
+    animation: 0.6s blue-lt-flash ease-in-out infinite;
+}
+
+.blue-dk {
+    fill: #0f1f2f;
+    -webkit-animation: 0.6s blue-dk-flash ease-in-out infinite;
+    animation: 0.6s blue-dk-flash ease-in-out infinite;
+}
+
+.gold-dk {
+    fill: #69512a;
+    -webkit-animation: 0.6s gold-dk-flash ease-in-out infinite;
+    animation: 0.6s gold-dk-flash ease-in-out infinite;
+}
+
+/* =========================
+   Staggered Delays
+   ========================= */
+.g1 {
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+}
+
+.g2 {
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+}
+
+.g3 {
+    -webkit-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+}
+
+/* =========================
+   Keyframes (WebKit + Standard)
+   ========================= */
+/* Red */
+@-webkit-keyframes red-flash {
+    40% { fill: #ea385c; }
+    80% { fill: #aa1231; }
+}
+@keyframes red-flash {
+    40% { fill: #ea385c; }
+    80% { fill: #aa1231; }
+}
+
+/* Gold (light) */
+@-webkit-keyframes gold-lt-flash {
+    40% { fill: #e7b75c; }
+    80% { fill: #c1881c; }
+}
+@keyframes gold-lt-flash {
+    40% { fill: #e7b75c; }
+    80% { fill: #c1881c; }
+}
+
+/* Blue (light) */
+@-webkit-keyframes blue-lt-flash {
+    40% { fill: #386fb1; }
+    80% { fill: #1f3e64; }
+}
+@keyframes blue-lt-flash {
+    40% { fill: #386fb1; }
+    80% { fill: #1f3e64; }
+}
+
+/* Blue (dark) */
+@-webkit-keyframes blue-dk-flash {
+    40% { fill: #28527c; }
+    80% { fill: #0f1f2f; }
+}
+@keyframes blue-dk-flash {
+    40% { fill: #28527c; }
+    80% { fill: #0f1f2f; }
+}
+
+/* Gold (dark) */
+@-webkit-keyframes gold-dk-flash {
+    40% { fill: #b28947; }
+    80% { fill: #69512a; }
+}
+@keyframes gold-dk-flash {
+    40% { fill: #b28947; }
+    80% { fill: #69512a; }
+}
+
+
